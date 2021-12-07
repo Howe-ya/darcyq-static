@@ -48,3 +48,7 @@ function toggleSidebar(){
             $("#searchBtn").trigger("click");
         }
     }
+
+$(".searchTrigger").click(function () {
+        $("#header-hidden-box").toggle();
+    });
