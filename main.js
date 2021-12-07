@@ -1,3 +1,5 @@
+
+console.log("static load success")
 // 浏览器搞笑标题
 var OriginTitle = document.title;
 var titleTime;
