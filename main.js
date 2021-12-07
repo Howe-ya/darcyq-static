@@ -15,12 +15,3 @@ document.addEventListener('visibilitychange', function () {
         }, 2000);
     }
 });
-
-let theme = sessionStorage.getItem("theme");
-    if (!isEmpty(theme)){
-        if (_.isEqual(theme, "dark")){
-            document.getElementById('themeClass').href='${ctx}/static/css/themes/dark.css';
-        }else{
-            document.getElementById('themeClass').href='${ctx}/static/css/themes/white.css';
-        }
-    }
